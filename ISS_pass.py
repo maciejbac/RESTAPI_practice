@@ -19,4 +19,4 @@ datetime_request = int(response_values.get('request').get('datetime'))
 datetime_handle = datetime.datetime.fromtimestamp(int(datetime_request)).strftime('%d/%m/%Y at %H:%M:%S')
 
 # Print the output
-print('ISS will pass over london on:\n' + datetime_handle + ' UTC')
+print('ISS will pass over London on:\n' + datetime_handle + ' UTC')
