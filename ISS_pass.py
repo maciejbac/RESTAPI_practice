@@ -8,7 +8,7 @@ query = {'lat':'51', 'lon':'0.3'}
 # Send an API call to the REST API, passing my query variable as a 2nd argument to filter the results
 response = requests.get('http://api.open-notify.org/iss-pass.json', params=query)
 # Print the HTTP status code (200 = OK)
-print(response)
+#print(response)
 # Save API response values to a new variable
 response_values = response.json()
 
